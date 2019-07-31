@@ -11,6 +11,26 @@
     padding-right: 0;
   }
 
+  &--no-padding-until-medium {
+    padding-left: 0;
+    padding-right: 0;
+
+    @mixin atmedium{
+      padding-left: 18px;
+      padding-right: 18px;
+    }
+  }
+
+  &--no-padding-until-large {
+    padding-left: 0;
+    padding-right: 0;
+
+    @mixin atlarge{
+      padding-left: 18px;
+      padding-right: 18px;
+    }
+  }
+
   &--medium {
     max-width: 930px;
   }
