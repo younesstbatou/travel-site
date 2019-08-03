@@ -1,0 +1,19 @@
+/*do not change sprite in templates file as it is changing automatecly by gulp. Instead go to modules and change it */
+
+
+{{#shapes}}
+
+  {{#first}}
+    .icon{
+      background-image: url('/assets/images/sprites/{{{sprite}}}');
+    }
+  {{/first}}
+
+
+  .icon--{{base}} {
+    width: {{width.outer}}px;
+    height: {{height.outer}}px;
+    background-position: {{position.relative.xy}};
+  }
+
+{{/shapes}}
