@@ -1,7 +1,15 @@
 .primary-nav {
 
-  &--pull-right{
-    float: right;
+  padding-top: 10px;
+
+  @mixin atmedium{
+    padding-top: 0;
+  }
+
+  &--pull-right {
+    @mixin atmedium {
+      float: right;
+    }
   }
 
   ul {
@@ -12,14 +20,36 @@
 
   li {
     list-style: none;
-    float: left;
-    padding-right: 20px;
-    padding-top: 12px;
+    padding-right: 7px;
+    display: inline-block;
+    @mixin atmedium{
+      padding-right: 20px;
+      float: left;
+      display: block;
+    }
+  }
+
+  li:last-child{
+    padding-right: 0;
+
+    @mixin atmedium{
+      padding-right: 20px;
+    }
   }
 
   a {
     color: #FFF;
     font-weight: 300;
     text-decoration: none;
+    display: block;
+    font-size: .8rem;
+    padding: 5px 8px;
+    background-color: rgba($mainblue, .5);
+
+    @mixin atmedium {
+      padding: 12px 0;
+      font-size: 1rem;
+      background-color: transparent;
+    }
   }
 }
