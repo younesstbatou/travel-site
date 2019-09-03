@@ -12,8 +12,10 @@
 @import "modules/_section-title";
 @import "modules/_feature-item";
 @import "modules/_testimonial";
-@import "modules/_sprite.css";
-@import "modules/_footer.css";
-@import "modules/_header.css";
-@import "modules/_primary-nav.css";
-@import "modules/_reveal-item.css";
+@import "modules/_sprite";
+@import "modules/_footer";
+@import "modules/_header";
+@import "modules/_primary-nav";
+@import "modules/_reveal-item";
+@import "modules/_modal";
+@import "modules/_social-icons";
