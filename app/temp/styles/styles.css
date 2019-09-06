@@ -928,11 +928,11 @@ a {
 /*do not change sprite in templates file as it is changing automatecly by gulp. Instead go to modules and change it */
 
 .icon{
-      background-image: url('/assets/images/sprites/sprite-a150da70.svg');
+      background-image: url('../../assets/images/sprites/sprite-a150da70.svg');
     }
 
 .no-svg .icon{
-      background-image: url('/assets/images/sprites/sprite-a150da70.png');
+      background-image: url('../../assets/images/sprites/sprite-a150da70.png');
     }
 
 .icon--clear-view-escapes {
