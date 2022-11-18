@@ -34,6 +34,6 @@
     "postcss-simple-vars": "^5.0.2",
     "script-loader": "^0.7.2",
     "webpack": "^4.39.2",
-    "webpack-cli": "^3.3.7"
+    "webpack-cli": "^3.3.12"
   }
 }
